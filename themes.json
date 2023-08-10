@@ -158,5 +158,25 @@
       "blue": "#06B6EF",
       "red": "#EF6155"
     }
+  },
+  "MellowPurple": {
+    "light": {
+      "background": "#FFEEFF",
+      "foreground": "#1E0528",
+      "yellow": "#955AE7",
+      "green": "#05CB0D",
+      "gray": "#F8C0FF",
+      "blue": "#550068",
+      "red": "#00D9E9"
+    },
+    "dark": {
+      "background": "#1E0528",
+      "foreground": "#FFEEFF",
+      "yellow": "#955AE7",
+      "green": "#05CB0D",
+      "gray": "#F8C0FF",
+      "blue": "#550068",
+      "red": "#00D9E9"
+    }
   }
 }

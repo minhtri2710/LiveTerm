@@ -141,14 +141,22 @@ export const sudo = async (args?: string[]): Promise<string> => {
 // Banner
 export const banner = (args?: string[]): string => {
   return `
-█████        ███                       ███████████                                   
-░░███        ░░░                       ░█░░░███░░░█                                   
- ░███        ████  █████ █████  ██████ ░   ░███  ░   ██████  ████████  █████████████  
- ░███       ░░███ ░░███ ░░███  ███░░███    ░███     ███░░███░░███░░███░░███░░███░░███ 
- ░███        ░███  ░███  ░███ ░███████     ░███    ░███████  ░███ ░░░  ░███ ░███ ░███ 
- ░███      █ ░███  ░░███ ███  ░███░░░      ░███    ░███░░░   ░███      ░███ ░███ ░███ 
- ███████████ █████  ░░█████   ░░██████     █████   ░░██████  █████     █████░███ █████
-░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
+TTTTTTTTTTTTTTTTTTTTTTT                     iiii       TTTTTTTTTTTTTTTTTTTTTTT                                                     
+T:::::::::::::::::::::T                    i::::i      T:::::::::::::::::::::T                                                     
+T:::::::::::::::::::::T                     iiii       T:::::::::::::::::::::T                                                     
+T:::::TT:::::::TT:::::T                                T:::::TT:::::::TT:::::T                                                     
+TTTTTT  T:::::T  TTTTTTrrrrr   rrrrrrrrr  iiiiiii      TTTTTT  T:::::T  TTTTTTrrrrr   rrrrrrrrr   aaaaaaaaaaaaa  nnnn  nnnnnnnn    
+        T:::::T        r::::rrr:::::::::r i:::::i              T:::::T        r::::rrr:::::::::r  a::::::::::::a n:::nn::::::::nn  
+        T:::::T        r:::::::::::::::::r i::::i              T:::::T        r:::::::::::::::::r aaaaaaaaa:::::an::::::::::::::nn 
+        T:::::T        rr::::::rrrrr::::::ri::::i              T:::::T        rr::::::rrrrr::::::r         a::::ann:::::::::::::::n
+        T:::::T         r:::::r     r:::::ri::::i              T:::::T         r:::::r     r:::::r  aaaaaaa:::::a  n:::::nnnn:::::n
+        T:::::T         r:::::r     rrrrrrri::::i              T:::::T         r:::::r     rrrrrrraa::::::::::::a  n::::n    n::::n
+        T:::::T         r:::::r            i::::i              T:::::T         r:::::r           a::::aaaa::::::a  n::::n    n::::n
+        T:::::T         r:::::r            i::::i              T:::::T         r:::::r          a::::a    a:::::a  n::::n    n::::n
+      TT:::::::TT       r:::::r           i::::::i           TT:::::::TT       r:::::r          a::::a    a:::::a  n::::n    n::::n
+      T:::::::::T       r:::::r           i::::::i           T:::::::::T       r:::::r          a:::::aaaa::::::a  n::::n    n::::n
+      T:::::::::T       r:::::r           i::::::i           T:::::::::T       r:::::r           a::::::::::aa:::a n::::n    n::::n
+      TTTTTTTTTTT       rrrrrrr           iiiiiiii           TTTTTTTTTTT       rrrrrrr            aaaaaaaaaa  aaaa nnnnnn    nnnnnn
 
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
