@@ -79,7 +79,7 @@ export const Input = ({
   };
 
   return (
-    <div className="flex flex-row space-x-2">
+    <div className="flex flex-col space-x-0 md:flex-row md:space-x-2">
       <label htmlFor="prompt" className="flex-shrink">
         <Ps1 />
       </label>

@@ -126,7 +126,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 
 // Banner
 export const banner = (args?: string[]): string => {
-  return `
+  return `<div class="hidden xl:block">
 TTTTTTTTTTTTTTTTTTTTTTT                     iiii       TTTTTTTTTTTTTTTTTTTTTTT                                                     
 T:::::::::::::::::::::T                    i::::i      T:::::::::::::::::::::T                                                     
 T:::::::::::::::::::::T                     iiii       T:::::::::::::::::::::T                                                     
@@ -143,7 +143,24 @@ TTTTTT  T:::::T  TTTTTTrrrrr   rrrrrrrrr  iiiiiii      TTTTTT  T:::::T  TTTTTTrr
       T:::::::::T       r:::::r           i::::::i           T:::::::::T       r:::::r          a:::::aaaa::::::a  n::::n    n::::n
       T:::::::::T       r:::::r           i::::::i           T:::::::::T       r:::::r           a::::::::::aa:::a n::::n    n::::n
       TTTTTTTTTTT       rrrrrrr           iiiiiiii           TTTTTTTTTTT       rrrrrrr            aaaaaaaaaa  aaaa nnnnnn    nnnnnn
-
+</div><div class="block xl:hidden">
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+T:::::::::::::::::::::TT:::::::::::::::::::::T
+T:::::::::::::::::::::TT:::::::::::::::::::::T
+T:::::TT:::::::TT:::::TT:::::TT:::::::TT:::::T
+TTTTTT  T:::::T  TTTTTTTTTTTT  T:::::T  TTTTTT
+        T:::::T                T:::::T        
+        T:::::T                T:::::T        
+        T:::::T                T:::::T        
+        T:::::T                T:::::T        
+        T:::::T                T:::::T        
+        T:::::T                T:::::T        
+        T:::::T                T:::::T        
+      TT:::::::TT            TT:::::::TT      
+      T:::::::::T            T:::::::::T      
+      T:::::::::T            T:::::::::T      
+      TTTTTTTTTTT            TTTTTTTTTTT      
+</div>
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
