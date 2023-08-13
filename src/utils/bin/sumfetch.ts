@@ -1,8 +1,7 @@
 import config from '../../../config.json';
 
 const sumfetch = async (args: string[]): Promise<string> => {
-  return `<div class="hidden xl:block>                                                  
-             @@@@@@@@@@@@@                   sumfetch: summary display
+  return `<div class="hidden sm:block">             @@@@@@@@@@@@@                   sumfetch: summary display
         @@@@               @@@@             -----------
       @@                       @@            ABOUT
     @@                           @@          ${config.name}
@@ -18,7 +17,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
         @@@                  @@@ @@ 
          @|  @@@@@@@@@@@@@@@@   @@
          @|                      @@
-</div><div>
+</div><div class="block sm:hidden">
  sumfetch: summary display
 -----------
  ABOUT
@@ -31,8 +30,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
  <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
  <u><a href="https://github.com/${config.social.github}" target="_blank">github.com/${config.social.github}</a></u>
  <u><a href="https://linkedin.com/in/${config.social.linkedin}" target="_blank">linkedin.com/in/${config.social.linkedin}</a></u>
-</div>
-`;
+</div>`;
 };
 
 export default sumfetch;
