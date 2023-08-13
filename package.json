@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "license": "MIT",
   "author": {
-    "name": "Vincent Wu",
-    "url": "https://cveinnt.com",
-    "email": "contact@wensenwu.com"
+    "name": "Tri Tran",
+    "url": "https://minhtri2710.vercel.app",
+    "email": "minhtri.ltv@gmail.com"
   },
   "scripts": {
     "dev": "next dev",
