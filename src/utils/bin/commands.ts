@@ -143,7 +143,7 @@ TTTTTT  T:::::T  TTTTTTrrrrr   rrrrrrrrr  iiiiiii      TTTTTT  T:::::T  TTTTTTrr
       T:::::::::T       r:::::r           i::::::i           T:::::::::T       r:::::r          a:::::aaaa::::::a  n::::n    n::::n
       T:::::::::T       r:::::r           i::::::i           T:::::::::T       r:::::r           a::::::::::aa:::a n::::n    n::::n
       TTTTTTTTTTT       rrrrrrr           iiiiiiii           TTTTTTTTTTT       rrrrrrr            aaaaaaaaaa  aaaa nnnnnn    nnnnnn
-</div><div class="block xl:hidden">
+</div><div class="hidden sm:block xl:hidden">
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
 T:::::::::::::::::::::TT:::::::::::::::::::::T
 T:::::::::::::::::::::TT:::::::::::::::::::::T
@@ -160,6 +160,10 @@ TTTTTT  T:::::T  TTTTTTTTTTTT  T:::::T  TTTTTT
       T:::::::::T            T:::::::::T      
       T:::::::::T            T:::::::::T      
       TTTTTTTTTTT            TTTTTTTTTTT      
+</div><div class="block sm:hidden">  _____ _____ 
+ |_   _|_   _|
+   | |   | |  
+   |_|   |_|
 </div>
 Type 'help' to see the list of available commands.
 Type 'sumfetch' to display summary.
